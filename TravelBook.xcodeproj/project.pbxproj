@@ -14,6 +14,7 @@
 		372191B22BCC679500514E70 /* TravelBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 372191B02BCC679500514E70 /* TravelBook.xcdatamodeld */; };
 		372191B42BCC679600514E70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 372191B32BCC679600514E70 /* Assets.xcassets */; };
 		372191B72BCC679600514E70 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 372191B62BCC679600514E70 /* Base */; };
+		37CC1FE52BCEE8C300A7346F /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CC1FE42BCEE8C300A7346F /* ListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		372191B32BCC679600514E70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		372191B62BCC679600514E70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		372191B82BCC679600514E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37CC1FE42BCEE8C300A7346F /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				372191A72BCC679500514E70 /* AppDelegate.swift */,
 				372191A92BCC679500514E70 /* SceneDelegate.swift */,
+				37CC1FE42BCEE8C300A7346F /* ListViewController.swift */,
 				372191AB2BCC679500514E70 /* ViewController.swift */,
 				372191AD2BCC679500514E70 /* Main.storyboard */,
 				372191B32BCC679600514E70 /* Assets.xcassets */,
@@ -144,6 +147,7 @@
 				372191B22BCC679500514E70 /* TravelBook.xcdatamodeld in Sources */,
 				372191AC2BCC679500514E70 /* ViewController.swift in Sources */,
 				372191A82BCC679500514E70 /* AppDelegate.swift in Sources */,
+				37CC1FE52BCEE8C300A7346F /* ListViewController.swift in Sources */,
 				372191AA2BCC679500514E70 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,11 +303,11 @@
 				DEVELOPMENT_TEAM = 2M98MY3M36;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TravelBook/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "To get your location";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -327,11 +331,11 @@
 				DEVELOPMENT_TEAM = 2M98MY3M36;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TravelBook/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "To get your location";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
